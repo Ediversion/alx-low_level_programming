@@ -4,7 +4,7 @@
  *@i: p
  * Return: okay
  */
-int print_last_digit(i)
+int print_last_digit(int i)
 {
 int k;
 k = i % 10;
