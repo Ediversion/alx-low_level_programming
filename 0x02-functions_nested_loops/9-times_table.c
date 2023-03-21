@@ -1,11 +1,39 @@
 #include "main.h"
 /**
- * add - This had better work
- *@a: a
- *@b: b
+ * times_table - This had better work
+ *
+ *
  * Return: okay
  */
-int add(int a, int b)
+void times_table(void)
 {
-return (a + b);
+int x, y, z, u, d;
+
+for (x = 0; x <= 9; x++)
+{
+for (y = 0; y <= 9; y++)
+{
+z = x * y;
+if (z > 9)
+{
+u = z % 10;
+d = (z - u) / 10;
+_putchar(44);
+_putchar(12);
+_putchar(d + '0');
+_putchar(u + '0');
+}
+else
+{
+if (y != 0)
+{
+_putchar(44);
+_putchar(32);
+_putchar(32);
+}
+_putchar(z + '0');
+}
+}
+_putchar('\n');
+}
 }
