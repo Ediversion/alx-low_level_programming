@@ -6,14 +6,15 @@
  */
 int main(void)
 {
-int sum = 0;
-for (int i = 1; i < 10; i++)
+int i, z = 0;
+while (i < 1024)
 {
-if (i % 3 == 0 || i % 5 == 0)
+if ((i % 3 == 0) || (i % 5 == 0))
 {
-sum += i;
+z += i;
 }
+i++;
 }
-printf("%d\n", sum);
+printf("%d\n", z);
 return (0);
 }
