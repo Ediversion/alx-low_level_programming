@@ -1,4 +1,4 @@
-#include "main.c"
+#include "main.h"
 /**
  * print_line - This had better work
  *@n: n
