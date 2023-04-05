@@ -2,7 +2,7 @@
 int actual_sqrt_recursion(int a, int b);
 /**
  * _sqrt_recursion - This had better work
- * @n: n
+ * @x: n
  * Return: okay
  */
 int _sqrt_recursion(int x)
